@@ -1,0 +1,36 @@
+%% main.tex — Guilherme Neves Marchi CV
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.75]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+
+% ── Personal data ────────────────────────────────────────────────────────────
+\name{Guilherme}{Neves Marchi}
+\title{Mechanical Engineer}
+\address{Kastanienweg, 31}{52074 Aachen}{Germany}
+\phone[mobile]{+49~(000)~000~0000}   % update with real number if desired
+\email{marchi.neves@gmail.com}
+
+% Social links — uncomment / fill in as needed
+%\social[linkedin]{guilherme-neves-marchi}
+%\social[github]{yourusername}
+
+\photo[64pt][0.4pt]{photo}           % expects photo.jpg in the same folder
+
+% ── Document ─────────────────────────────────────────────────────────────────
+\begin{document}
+
+\makecvtitle
+
+\input{folder/summary}
+\input{folder/experience}
+\input{folder/education}
+\input{folder/skills}
+
+\end{document}
